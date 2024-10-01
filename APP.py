@@ -29,25 +29,25 @@ feature_names = [
 st.title("Live Birth Predictor")
 
 # age: numerical input
-age = st.number_input("Age:", min_value=1, max_value=120, value=50)
+age = st.number_input("Age:", min_value=1, max_value=120, value=34)
 
 # age: numerical input
-infertility_time = st.number_input("Infertility_time (Year):", min_value=1, max_value=120, value=50)
+infertility_time = st.number_input("Infertility_time (Year):", min_value=1, max_value=120, value=8)
 
 # age: numerical input
-menarche_age = st.number_input("Menarche_age:", min_value=1, max_value=120, value=50)
+menarche_age = st.number_input("Menarche_age:", min_value=1, max_value=120, value=12)
 
 # age: numerical input
-AMH = st.number_input("AMH:", min_value=1, max_value=120, value=50)
+AMH = st.number_input("AMH:", min_value=1, max_value=120, value=0.42)
 
 # age: numerical input
-gn_dose = st.number_input("Gn_dose:", min_value=1, max_value=20000, value=2000)
+gn_dose = st.number_input("Gn_dose:", min_value=1, max_value=20000, value=3975)
 
 # age: numerical input
-gn_days = st.number_input("Gn_days:", min_value=1, max_value=120, value=50)
+gn_days = st.number_input("Gn_days:", min_value=1, max_value=120, value=11)
 
 # age: numerical input
-oocyte = st.number_input("Oocyte:", min_value=1, max_value=120, value=50)
+oocyte = st.number_input("Oocyte:", min_value=1, max_value=120, value=3)
 
 # cp: categorical selection
 embryos = st.selectbox("Embryos:", options=list(embryos.keys()), format_func=lambda x: embryos[x])
