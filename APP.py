@@ -38,10 +38,10 @@ infertility_time = st.number_input("Infertility_time (Year):", min_value=1, max_
 menarche_age = st.number_input("Menarche_age:", min_value=1, max_value=120, value=12)
 
 # age: numerical input
-AMH = st.number_input("AMH:", min_value=0, max_value=120, value=1)
+AMH = st.number_input("AMH:", min_value=0.0, max_value=120.0, value=1.0, format="%0.2f")
 
 # age: numerical input
-gn_dose = st.number_input("Gn_dose:", min_value=1, max_value=50000, value=3975)
+gn_dose = st.number_input("Gn_dose:", min_value=0.0, max_value=50000.0, value=3975.0, format="%0.2f")
 
 # age: numerical input
 gn_days = st.number_input("Gn_days:", min_value=1, max_value=120, value=11)
