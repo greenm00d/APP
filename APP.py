@@ -1,12 +1,4 @@
 import streamlit as st
-from streamlit_echarts import st_echarts
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
-import pandas as pd
-import numpy as np
-
-import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
